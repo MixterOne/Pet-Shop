@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --color_primary: #02a4d3;
+    --color_seconds: navy;
+  }
+
+body {
+    height: 100vh;
+    background-image: url(../images/backg_register.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_register {
+    height: 80vh;
+    width: 70%;
+    background: radial-gradient(var(--color_primary), black);
+    border-radius: 20px;
+}
+
+.form_register .container_form{
+    display: flex;
+    width: 100%;
+}
+
+.form_register .container_form .box_right{
+    background-image: url(../images/cat_bg.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 300px;
+    color: #fff;
+    display: block;
+    width: 50%;
+    text-align: center;
+}
+
+.form_register .container_form .box_right h1{
+    font-size: 34px;
+    margin: 40px 0px 10px 0px;
+    font-weight: 100;
+}
+
+.form_register .container_form .box_right span{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.form_register .container_form .box_right p{
+    margin-top: 20px;
+    font-size: 14px;
+    margin: 0 10px;
+}
+
+
+.form_register .container_form .box_left{
+    background: #fff;
+    height: 80vh;
+    width: 50%;
+    border-radius: 0px 20px 20px 0px;
+    padding: 10px;
+}
+
+.form_register .container_form .box_left h2{
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.form_register .container_form .box_left form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_register .container_form .box_left .input_wrapper{
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+}
+
+
+.form_register .container_form .box_left input{
+    border: 1px solid var(--color_seconds);
+    outline: none;
+    border-radius: 3px;
+    width: 400px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.form_register .container_form .box_left .input1 {
+    width: 200px;
+}
+
+.form_register .container_form .box_left button{
+    border: none;
+    outline: none;
+    width: 400px;
+    padding: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: var(--color_seconds);
+    color: #fff;
+    transition: .3s ease-in;
+    cursor: pointer;
+}
+
+.form_register .container_form .box_left button:hover{
+    background-color: var(--color_primary);
+    border-radius: 10px;
+}
